@@ -1,5 +1,5 @@
 import sys #La biblioteca sys en Python proporciona acceso a algunas variables y funciones que interactúan fuertemente con el intérprete de Python
-from src.logger import logging
+from logger import logging
 
 def error_message_detail(error,error_detail:sys): # create a funtion to return an customed error message
     _,_,exc_tb = error_detail.exc_info()
@@ -20,7 +20,7 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
 
-
+"""
 # this is an example error of exception to see
 if __name__=='__main__':
     try:
@@ -28,4 +28,6 @@ if __name__=='__main__':
     except Exception as e:
         logging.info('divide by zero')
         raise CustomException(e,sys)
+"""
+
 
