@@ -15,9 +15,9 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
-
+"""
 # example message to display in the log file.
 if __name__=='__main__':
    logging.info('logging has started')
 
-        
+"""       

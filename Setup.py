@@ -1,4 +1,5 @@
 from setuptools import find_packages, setup
+# find_packages functions is responsable to find all the packages availables in this ml project.
 from typing import List
 
 HYPEN_E_DOT='-e .'
@@ -25,4 +26,4 @@ packages= find_packages(),
 install_requires=get_requirements('requirements.txt'),
 
 
-)
+) nuevo_entorno

@@ -1,5 +1,5 @@
 import sys #La biblioteca sys en Python proporciona acceso a algunas variables y funciones que interactúan fuertemente con el intérprete de Python
-from logger import logging
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys): # create a funtion to return an customed error message
     _,_,exc_tb = error_detail.exc_info()
